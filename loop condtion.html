@@ -1,0 +1,121 @@
+<doctype html!>
+
+    <html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+        <script>
+
+
+
+            var age = 25;
+
+            if (age > 18) {
+
+                document.write("you are adult </br>");
+            }
+
+            document.write("bye </br></br>");
+
+            var age = 66;
+
+            if (age > 18) {
+
+                document.write("you are adult </br></br>");
+            }
+            else {
+
+                document.write("you are child </br></br>");
+
+            }
+
+            var stream = "bba";
+
+            if (stream == "mca") {
+
+                document.write("mca student </br></br>");
+
+            } else if (stream == "bba") {
+
+                document.write("bba student </br></br>");
+            } else if (stream == "EC") {
+
+                document.write("Ec student </br></br>");
+            } else {
+
+                document.write("bca student </br></br>");
+            }
+
+            var grade = 'D';
+
+            document.write("<b>switch statmen</b>:-<br />"); 
+            switch (grade) {
+
+                case 'A': document.write("you are in A </br></br>"); break;
+
+
+
+                case 'B': document.write("you are in B </br></br>"); break;
+
+
+
+                case 'C': document.write("you are in C </br></br>"); break;
+
+
+
+                case 'D': document.write("you are in D </br></br>"); break;
+
+
+
+                case 'F': document.write("you are in F </br></br>"); break;
+
+
+
+                default: document.write("you are out </br></br>!")
+            }
+
+            var num = 0;
+
+            document.write("</br><b>print number by while loop</b></br>");
+
+            while (num <= 10) {
+
+                document.write("num is: " + num + "</br>");
+                num++;
+
+            }
+
+            var num = 0;
+
+            document.write("</br><b>do...while lopp :-number is</b> " + "</br>");
+
+            do {
+
+                document.write("Current num : " + num + "</br>"); 
+                num++;
+
+            }
+
+            while (num < 6);
+
+            var i;
+            document.write("</br><b> for loop with even number:-</b></br>")
+            for (i = 0; i <= 10; i++) {
+
+                if (i % 2 == 0 && i !== 0) {
+
+                    document.write("even number is : " + i); document.write("<br />");
+
+                }
+
+            }
+
+        </script>
+
+    </body>
+
+    </html>

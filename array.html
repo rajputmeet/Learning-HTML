@@ -1,0 +1,55 @@
+<html>
+    <body>
+        <b>name.length:-</b>
+        <p id="a"></p>
+        <b>toString:-</b>
+        <p id="b"></p>
+        <b>name.join:-</b>
+        <p id="c"></p>
+        <b>name.pop:-</b>
+        <p id="d"></p>
+        <b>name.push:-</b>
+        <p id="e"></p>
+        <b>name.shift:-</b>
+        <p id="f"></p>
+        <b>name.unshift:-</b>
+        <p id="g"></p>
+        <b>change name & delete name:-</b>
+        <p id="h"></p>
+        <p id="i"></p>
+        <script>
+           
+           const name =["tariq","parth","vashu","yash","yamin"];
+            var size = name.length;
+            document.getElementById("a").innerHTML=size;
+
+            const name1 =["tariq","parth","vashu","yash"];
+            document.getElementById("b").innerHTML=name1.toString();
+
+           const name2 =["tariq","parth","vashu","yash"];
+            document.getElementById("c").innerHTML=name2.join("~");
+
+           const name3 =["tariq","parth","vashu","yash"];
+            document.getElementById("d").innerHTML=name3.pop();
+
+            const name4 =["tariq","parth","vashu","yash"];
+            document.getElementById("e").innerHTML=name4;
+            name4.push("disha");
+            document.getElementById("e").innerHTML=name4;
+
+            const name8 =["tariq","parth","vashu","yash"];
+            name8.shift();
+            document.getElementById("f").innerHTML=name8;
+
+           const name6 =["tariq","parth","vashu","yash"];
+            name6.unshift("priya");
+            document.getElementById("g").innerHTML=name6;
+
+            const name7 =["tariq","parth","vashu","yash"];
+            name7[1]="krish";
+            document.getElementById("h").innerHTML=name7;
+            delete name7[2];
+            document.getElementById("h").innerHTML=name7;
+        </script>
+    </body>
+</html>

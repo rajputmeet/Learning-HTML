@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables
+        
+    </title>
+</head>
+
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        {
+            var a = 1
+            var a = 2
+            document.getElementById("demo1").innerHTML = "Value of a is: " + a;
+
+        }
+
+        {
+            let b = 1
+            b = 3
+            {
+                let b = 2
+                document.getElementById("demo2").innerHTML = "Value of b is: " + b;
+
+            }
+            document.getElementById("demo3").innerHTML = "Value of b is: " + b;
+
+        }
+
+        {
+            const PI = 3.1415;
+            PI = 3.14;
+            document.getElementById("demo4").innerHTML = "Value of PI is: " + PI;
+
+        }
+    </script>
+</body>
+
+</html>

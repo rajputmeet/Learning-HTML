@@ -1,0 +1,63 @@
+<html>
+<head>
+
+    <title>
+        string function
+    </title>
+</head>
+<body>
+    <b>Length function:-</b>
+    <p id="a"></p>
+    <b>slice:-</b>
+    <p id="b"></p>
+    <b>substring:-</b>
+    <p id="c"></p>
+    <b>replace:-</b>
+    <p id="d"></p>
+    <b>toUpperCase:-</b>
+    <p id="e"></p>
+    <b>toLowerCase:-</b>
+    <p id="f"></p>
+    <b>trim with length:-</b>
+    <p id="g"></p>
+
+    <script>
+        
+        var t = "DR.SUBHASH";
+        document.getElementById("a").innerHTML = t.length;
+
+        
+        var hi = "Mira, Jaydeep, Parth";
+        var e = hi.slice(7);
+        document.getElementById("b").innerHTML = e;
+
+        
+        var by = "Mira, Jaydeep, Parth";
+        var h = by.substring(3);
+        document.getElementById("c").innerHTML = h;
+
+        
+        var ji = "Jaydeep loves DSU.";
+        document.getElementById("d").innerHTML = ji;
+        document.getElementById("d").innerHTML = ji.replace("Jaydeep", "Priya");
+
+        
+        var k = "Jaydeep loves DSU.";
+        document.getElementById("e").innerHTML = k.toUpperCase();
+
+        
+        var l = "HELLO";
+        document.getElementById("f").innerHTML = l.toLowerCase();
+
+        
+        var u = " Hello DSU! ";
+        var u2 = u.trim();
+        document.getElementById("g").innerHTML = "Length u = " + u.length + "</br>Trim Length u2 = " + u2.length;
+
+    </script>
+
+    </script>
+
+</body>
+
+</html>
